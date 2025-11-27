@@ -1,6 +1,6 @@
 [tool.poetry]
-name = "test-publish"
-version = "1.1.0"
+name = "vmakarevich-test-publish"
+version = "1.0.0"
 description = "A minimal Python package for testing PyPI publishing"
 authors = ["Your Name <your.email@example.com>"]
 readme = "README.md"

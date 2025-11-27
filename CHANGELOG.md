@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/VitoMakarevich/test-publish/compare/v1.1.0...v1.2.0) (2025-11-27)
+
+
+### Features
+
+* **main:** fix pypi name ([93e57e8](https://github.com/VitoMakarevich/test-publish/commit/93e57e892007edad86f21bb7bd067a0b5346b4d1))
+
 # [1.1.0](https://github.com/VitoMakarevich/test-publish/compare/v1.0.0...v1.1.0) (2025-11-27)
 
 

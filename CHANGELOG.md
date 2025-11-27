@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/VitoMakarevich/test-publish/compare/v1.0.0...v1.1.0) (2025-11-27)
+
+
+### Features
+
+* **main:** update repo name in pypi ([0dee2ae](https://github.com/VitoMakarevich/test-publish/commit/0dee2ae9e280c7ebdddef7093d88dfb6226f385a))
+
 # 1.0.0 (2025-11-27)
 
 

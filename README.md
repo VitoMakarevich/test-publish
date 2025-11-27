@@ -153,11 +153,13 @@ The workflow will automatically:
 
 When you open a PR, the CI will automatically:
 - ✅ Validate that the **PR title** follows the conventional commit format
-- ✅ Validate that all **commit messages** follow the conventional commit format using **commitlint**
 - ✅ Run linters (Black and Ruff)
 - ✅ Execute tests with coverage
 
-PRs with invalid titles or commit messages will be blocked until fixed.
+**Note:** Individual commit messages in the PR are NOT validated. This is intentional for a **squash merge workflow**, where:
+- Feature branch commits can have any format (WIP commits, fixup commits, etc.)
+- Only the PR title matters - it becomes the commit message when squashed
+- semantic-release reads the squashed commit (PR title) from main branch
 
 **PR Title Examples:**
 ```
@@ -167,6 +169,14 @@ PRs with invalid titles or commit messages will be blocked until fixed.
 ❌ Added some new features (not conventional format)
 ❌ WIP: work in progress (not a valid type)
 ```
+
+### Recommended GitHub Settings
+
+For squash merge workflow, configure your repository:
+1. Go to **Settings** → **General** → **Pull Requests**
+2. Allow only **"Squash and merge"**
+3. Disable "Allow merge commits" and "Allow rebase merging"
+4. This ensures the PR title always becomes the commit message
 
 ## Configuration
 

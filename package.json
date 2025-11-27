@@ -1,5 +1,5 @@
 {
-  "name": "test-publish",
+  "name": "vmakarevich-test-publish",
   "version": "0.0.0",
   "private": true,
   "description": "A minimal Python package for testing PyPI publishing",

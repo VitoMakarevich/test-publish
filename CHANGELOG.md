@@ -1,3 +1,10 @@
+## [1.2.2](https://github.com/VitoMakarevich/test-publish/compare/v1.2.1...v1.2.2) (2025-11-27)
+
+
+### Bug Fixes
+
+* **main:** change line ([#5](https://github.com/VitoMakarevich/test-publish/issues/5)) ([fa72bdd](https://github.com/VitoMakarevich/test-publish/commit/fa72bdd913fb5c9e1bfdd11be700c7df46c2176d))
+
 ## [1.2.1](https://github.com/VitoMakarevich/test-publish/compare/v1.2.0...v1.2.1) (2025-11-27)
 
 

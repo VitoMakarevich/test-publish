@@ -209,4 +209,3 @@ MIT License - see LICENSE file for details.
 5. Open a Pull Request
 
 The PR checks will automatically validate your commit messages.
-

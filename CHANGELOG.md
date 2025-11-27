@@ -1,3 +1,10 @@
+## [1.2.1](https://github.com/VitoMakarevich/test-publish/compare/v1.2.0...v1.2.1) (2025-11-27)
+
+
+### Bug Fixes
+
+* **main:** try out change ([#4](https://github.com/VitoMakarevich/test-publish/issues/4)) ([48225b1](https://github.com/VitoMakarevich/test-publish/commit/48225b1f1a2d4e10150c8be94f9d3990385afed4))
+
 # [1.2.0](https://github.com/VitoMakarevich/test-publish/compare/v1.1.0...v1.2.0) (2025-11-27)
 
 

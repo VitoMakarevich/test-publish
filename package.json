@@ -1,0 +1,17 @@
+{
+  "name": "test-publish",
+  "version": "0.0.0",
+  "private": true,
+  "description": "A minimal Python package for testing PyPI publishing",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/test-publish.git"
+  },
+  "devDependencies": {
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/exec": "^6.0.3",
+    "@semantic-release/git": "^10.0.1",
+    "semantic-release": "^22.0.0"
+  }
+}
+

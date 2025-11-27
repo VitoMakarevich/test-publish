@@ -1,0 +1,30 @@
+{
+  "branches": ["main"],
+  "plugins": [
+    "@semantic-release/commit-analyzer",
+    "@semantic-release/release-notes-generator",
+    [
+      "@semantic-release/changelog",
+      {
+        "changelogFile": "CHANGELOG.md"
+      }
+    ],
+    [
+      "@semantic-release/exec",
+      {
+        "verifyConditionsCmd": "poetry --version",
+        "prepareCmd": "poetry version ${nextRelease.version} && sed -i'' -e 's/__version__ = \".*\"/__version__ = \"${nextRelease.version}\"/' src/test_publish/__init__.py",
+        "publishCmd": "poetry build && poetry publish --username __token__ --password $PYPI_TOKEN"
+      }
+    ],
+    [
+      "@semantic-release/git",
+      {
+        "assets": ["CHANGELOG.md", "pyproject.toml", "src/test_publish/__init__.py"],
+        "message": "chore(release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
+      }
+    ],
+    "@semantic-release/github"
+  ]
+}
+

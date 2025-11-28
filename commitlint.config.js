@@ -17,6 +17,14 @@ module.exports = {
         'chore',
         'revert'
       ]
+    ],
+    'scope-enum': [
+      2,
+      'always',
+      [
+        'abc',
+        'cde',
+      ]
     ]
   }
 };
